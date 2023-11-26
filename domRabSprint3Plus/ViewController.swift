@@ -1,9 +1,4 @@
-//
-//  ViewController.swift
-//  domRabSprint3Plus
-//  
-//  Created by admin on 22.11.2023.
-//
+
 
 import UIKit
 
@@ -16,7 +11,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var counterLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
         historyTextView.text = "История изменений:"
     }
     
